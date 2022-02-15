@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core;
+namespace mg\FrameworkPhpMvcCore;
 
-use app\core\View;
-use app\core\db\DataBase;
-use  app\core\db\DbModel;
+use mg\FrameworkPhpMvcCore\View;
+use mg\FrameworkPhpMvcCore\db\DataBase;
+use  mg\FrameworkPhpMvcCore\db\DbModel;
 
 /**
  * class Application
  *
- * @package app\core
+ * @package mg\FrameworkPhpMvcCore
  *
  */
 

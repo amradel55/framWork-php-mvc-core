@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace mg\FrameworkPhpMvcCore;
 
-use app\core\Application;
+use mg\FrameworkPhpMvcCore\Application;
 
 abstract class Model
 {

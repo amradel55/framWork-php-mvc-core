@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core;
+namespace mg\FrameworkPhpMvcCore;
 
 
-use app\core\Response;
+use mg\FrameworkPhpMvcCore\Response;
 /**
  * class Router
  *
- * @package app\core
+ * @package mg\FrameworkPhpMvcCore
  *
  */
 class Router
@@ -45,7 +45,7 @@ class Router
 
         if ($callback === false)
         {
-            throw new \app\core\exception\NotFoundException();
+            throw new \mg\FrameworkPhpMvcCore\exception\NotFoundException();
         }
         if (is_string($callback))
         {
@@ -53,7 +53,7 @@ class Router
         }
         if (is_array($callback))
         {
-            /** @var \app\core\Controller $controller  */
+            /** @var \mg\FrameworkPhpMvcCore\Controller $controller  */
             $controller = new $callback[0]();
             Application::$app->controller = $controller ;
             Application::$app->controller->action = $callback[1];

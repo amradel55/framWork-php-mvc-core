@@ -2,8 +2,9 @@
     "name": "mg/framework-php-mvc-core",
     "autoload": {
         "psr-4": {
-            "Mg\\FrameworkPhpMvcCore\\": "src/"
+            "Mg\\FrameworkPhpMvcCore": "."
         }
     },
-    "require": {}
+    "require": {},
+
 }

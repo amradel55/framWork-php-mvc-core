@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace mg\FrameworkPhpMvcCore\db;
 
-use app\core\Application;
+use mg\FrameworkPhpMvcCore\Application;
 
 
 class DataBase
